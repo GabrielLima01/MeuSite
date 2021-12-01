@@ -3,8 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #fff;
-
-    
+    overflow-x: hidden;
 }
 
 *{
@@ -69,6 +68,7 @@ nav {
 
 
 
+
 /* Parallax */
 /* Parallax */
 section:nth-of-type(1) {
@@ -93,7 +93,8 @@ section:nth-of-type(1) {
 
 .card-fundo{
     position: relative;
-    height: 40vh;
+    height: 50vh;
+    width: 80vw;
     border-style: solid;
     border-radius: 10px;
     border-color: #fff;
@@ -101,6 +102,7 @@ section:nth-of-type(1) {
     padding: 2rem 2rem;
     background-color: #fff;
     margin-top: 340px;
+    left: 7vw;
 }
 
 
@@ -121,7 +123,6 @@ font-size: 30px;
 
 
 .card-formacao{
-    background-color: #fff;
     width: 50vw;
     height: 34vh;
     padding: 2rem 2rem;
@@ -129,7 +130,6 @@ font-size: 30px;
 }
 
 .card-qualidades{
-    background-color: #fff;
     width: 30vw;
     height: 60vh;
     padding: 2rem 2rem;
@@ -141,7 +141,6 @@ font-size: 30px;
 }
 
 .card-cursos{
-    background-color: #fff;
     width: 50vw;
     height: 48vh;
     border-radius: 6px;
@@ -153,14 +152,15 @@ font-size: 30px;
 
 
 .card-conhecimentos{
-    background-color: #fff;
     width: 50vw;
     height: 60vh;
     padding: 0rem 2rem;
     align-items: center;
 }
 
-
+ section{
+    
+ }
 
 
 
@@ -202,3 +202,88 @@ font-size: 30px;
     opacity: 0.9;
     transition: 0.3s;
 }
+
+
+@media screen and (max-height: 632px){
+    
+    
+.card-fundo{
+    position: relative;
+    height: 60vh;
+    width: 70vw;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #fff;
+    box-shadow: 5px 5px 10px #363636;
+    padding: 2rem 2rem;
+    background-color: #fff;
+    margin-top: 340px;
+    left: 7vw;
+}
+
+.container-card{
+        margin-top: 45vh;
+    }
+    }
+    
+    
+
+    @media screen and (max-width: 1098px){
+        
+        
+    .card-fundo{
+        position: relative;
+        height: 80vh;
+        width: 70vw;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: #fff;
+        box-shadow: 5px 5px 10px #363636;
+        padding: 2rem 2rem;
+        background-color: #fff;
+        margin-top: 340px;
+        left: 7vw;
+    }
+    
+    }
+
+    
+@media screen and (max-width: 840px){
+    
+    
+    .card-fundo{
+        position: relative;
+        height: 120vh;
+        width: 70vw;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: #fff;
+        box-shadow: 5px 5px 10px #363636;
+        padding: 2rem 2rem;
+        background-color: #fff;
+        margin-top: 340px;
+        left: 7vw;
+    }
+
+    .container-card{
+        margin-top: 45vh;
+    }
+    }
+    
+    
+    
+@media screen and (max-width: 1000px){
+    
+    .container-card{
+        margin-top: 85vh;
+    }
+    }
+
+
+        
+@media screen and (max-width: 780px){
+    
+    .container-card{
+        margin-top: 135vh;
+    }
+    }
